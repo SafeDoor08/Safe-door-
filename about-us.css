@@ -15,7 +15,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 .menu-bar-2{display: none;}
 .side-bar{display:none;}
 html,body{overflow-x: hidden;overflow-y: auto;}
-#change-color{position:fixed;transition: 0.2s linear;z-index:3;}
+#change-color{position:fixed;transition: 0.2s linear;z-index:1;}
 .side-list{position:fixed;z-index: 2;}
 .logo-sift{margin-top:-7%;margin-bottom:-6%;}
                                     /*small device*/
@@ -30,7 +30,7 @@ html,body{overflow-x: hidden;overflow-y: auto;}
     .large-right-sider,.large-left-sider{display:none;}
     .for-small-devices,.hide-me-for-font{display:block;}
     .show-two-hundred-small-page,.show-three-hundred-small-page,.show-four-hundred-small-page,.show-five-hundred-small-page,.show-six-hundred-small-page,#small-left-sider{display:none}
-    .small-devices-logo img{height:100px;width:100%;padding-top:5%}
+
 }
 @media screen and (max-width:768px){
     .pre-side-bar{font-size:15px;} 
@@ -84,6 +84,15 @@ html,body{overflow-x: hidden;overflow-y: auto;}
     .logo-sift{margin-top:-8%;margin-bottom:-8%;}
 }
 /*top-containt*/
+
+/*middle*/
+.header{text-transform: capitalize;font-size:40px;}
+@media screen and (max-width:991px){
+    .card-3{display:none}
+}
+.header-part{height:300px;width:100%;border-radius:20px;}
+/*middle*/
+
 /*footer*/
 .icons-1,.icons,.icons-2,.icons-3{border:1px solid transparent;padding:2% 2.2%;margin-left:2%;border-radius:50px;background-color:rgb(49, 48, 48);}
 .icons-2{padding:2% 3%;}
@@ -100,34 +109,6 @@ html,body{overflow-x: hidden;overflow-y: auto;}
     .hide-girl{display:none}
 }
 /*footer*/
-/*middle*/
-.show-me{display:none}
-::placeholder{font-size: 13px;}
-.show-for-front{display:none;}
-.hide{transform: translateX(170%);}
-.bill{position:fixed}
-.first{width:40%;margin-left:25%}
-.second{width:40%;margin-left:23%}
-.third{width:50%;}
-
-@media screen and (max-width:1200px){
-    img{height:150px}
-    .bill{position: relative;}
+@media screen and (max-width:426px){
+    .header-part{height:200px}
 }
-@media screen and (max-width:991px){
-    
-    }
-    @media screen and (max-width:1200px){
-        .first{width:40%;margin-left:25%}
-        .second{width:40%;margin-left:23%}
-        .third{width:60%;}
-    }
-    @media screen and (max-width:767px){
-        .first{width:60%;margin-left:25%}
-        .second{width:40%;margin-left:23%}
-        .third{width:80%;}
-    }
-    @media screen and (max-width:576px){
-        .second{width:60%;margin-left:23%}
-        .third{width:80%;}
-    }

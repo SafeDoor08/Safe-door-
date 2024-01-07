@@ -106,28 +106,37 @@ html,body{overflow-x: hidden;overflow-y: auto;}
 .show-for-front{display:none;}
 .hide{transform: translateX(170%);}
 .bill{position:fixed}
+.cvv{width:100px}
+.date{width:200px;}
 .first{width:40%;margin-left:25%}
 .second{width:40%;margin-left:23%}
 .third{width:50%;}
-
 @media screen and (max-width:1200px){
     img{height:150px}
     .bill{position: relative;}
 }
-@media screen and (max-width:991px){
-    
-    }
-    @media screen and (max-width:1200px){
-        .first{width:40%;margin-left:25%}
-        .second{width:40%;margin-left:23%}
-        .third{width:60%;}
-    }
-    @media screen and (max-width:767px){
-        .first{width:60%;margin-left:25%}
-        .second{width:40%;margin-left:23%}
-        .third{width:80%;}
-    }
-    @media screen and (max-width:576px){
-        .second{width:60%;margin-left:23%}
-        .third{width:80%;}
-    }
+@media screen and (max-width:1200px){
+    .first{width:40%;margin-left:25%}
+    .second{width:40%;margin-left:23%}
+    .third{width:60%;}
+
+}
+@media screen and (max-width:767px){
+    .first{width:60%;margin-left:25%}
+    .second{width:40%;margin-left:23%}
+    .third{width:80%;}
+
+}
+@media screen and (max-width:576px){
+    .second{width:60%;margin-left:23%}
+    .third{width:80%;}
+    .cvv{width:40%}
+
+}
+@media screen and (max-width:425px){
+    .date{border: 1px solid}
+}
+@media screen and (max-width:320px){
+    .cvv{border:1px solid}
+    .card-number{border:1px solid}
+}
